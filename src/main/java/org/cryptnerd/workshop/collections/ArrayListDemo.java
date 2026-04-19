@@ -24,6 +24,7 @@ public class ArrayListDemo {
 		List <Integer> newList = new ArrayList<>();
 		newList.add(150);
 		newList.add(160);
+		newList.add(160);
 		
 		// this will add the two lists together
 		list.addAll(newList);
