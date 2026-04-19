@@ -5,7 +5,7 @@ public class Car implements Vehicle {
 	@Override
 	public void cleanVehicle() {
 		// TODO Auto-generated method stub
-		System.out.println("Cleaning the vehiclw");
+		System.out.println("Cleaning the vehicle");
 
 	}
 
