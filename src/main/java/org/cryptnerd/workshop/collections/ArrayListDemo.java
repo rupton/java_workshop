@@ -6,7 +6,7 @@ import java.util.List;
 public class ArrayListDemo {
 
 	public static void main(String[] args) {
-		List list = new ArrayList();
+		List <Integer> list = new ArrayList<>();
 		list.add(1);
 		list.add(2);
 		list.add(3);
@@ -21,7 +21,7 @@ public class ArrayListDemo {
 		System.out.println(list);
 		
 		//create a new list that will be added to the original list
-		List newList = new ArrayList();
+		List <Integer> newList = new ArrayList<>();
 		newList.add(150);
 		newList.add(160);
 		
