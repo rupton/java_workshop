@@ -13,6 +13,12 @@ public class Person {
 		this.country = country;
 	}
 
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+		this.country = "unknown";
+	}
+	
 	public String getName() {
 		return name;
 	}
