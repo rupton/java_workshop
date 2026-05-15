@@ -19,6 +19,15 @@ public class RegexDemo {
 				System.out.println("Matched: " + biMatch1.group());
 			}
 		}
+		
+		// match American and British version of the word gray using Alternation
+		String input = "Vibrant light bloomed across the gray sky, illuminating its grey haze in flashes amidst rolling hills of wispy gray clouds. "
+				+ "Colors of gold, pink, and purple painted the horizon, the dull grey of the sky overtaken by brief moments of a quiet twilight storm.";
+		Pattern pattern2 = Pattern.compile("gray|grey");
+	    Matcher matcher2 = pattern2.matcher(input);
+	    int count = 0;
+	    while(matcher2.find())count++;
+	    System.out.println("There are " + count + " instances of 'grey' or 'grey' in: " + input);
 	}
 
 }
