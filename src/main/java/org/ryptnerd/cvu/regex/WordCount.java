@@ -1,4 +1,4 @@
-package org.cryptnerd.workshop.javafx;
+package org.ryptnerd.cvu.regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
